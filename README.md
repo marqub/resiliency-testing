@@ -10,7 +10,8 @@ Only a single instance of each services is deployed: the goal being to simulate 
 
 **Before** deploying these services, [ResiProxy](https://github.com/marqub/resiproxy) must have been deployed using the helm chart provided in the repository.
 
-THE COMPLETE DEPLOYMENT INFO ARE AVAILABLE IN THIS MEDIUM POST: 
+THE COMPLETE DEPLOYMENT INFO ARE AVAILABLE IN [THIS MEDIUM POST](http://bit.ly/2EAXRYk).
+
 Once the services have been deployed in a K8s cluster, the tests can be run from a local env using:
 
     gradlew test
